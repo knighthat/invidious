@@ -465,7 +465,7 @@ hmac_key: "CHANGE_ME!!"
 ## Accepted values: a string
 ## Default: <none>
 ##
-#modified_source_code_url: ""
+modified_source_code_url: "https://github.com/knighthat/invidious"
 
 ##
 ## Maximum custom playlist length limit.
