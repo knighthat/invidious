@@ -470,6 +470,25 @@ footer span {
   display: block;
 }
 
+.wallet-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.wallet-info > .wallet-icon {
+  margin-right: .3em;
+}
+
+.wallet-info > .wallet-address {
+  max-width: 60%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 /* keyframes */
 
 @keyframes spin {
