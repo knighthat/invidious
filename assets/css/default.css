@@ -470,6 +470,11 @@ footer span {
   display: block;
 }
 
+.pure-g .wallet-section {
+  gap: 1.5rem 0;
+  padding: 2vh 0 2rem 0;
+}
+
 .wallet-info {
   display: flex;
   flex-direction: row;
