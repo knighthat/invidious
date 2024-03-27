@@ -26,6 +26,7 @@ module Invidious::Frontend::WatchPage
     return String.build(4000) do |str|
       str << "<form"
       str << " class=\"pure-form pure-form-stacked\""
+      str << " style=\"max-width: 500px\""
       str << " action='/download'"
       str << " method='post'"
       str << " rel='noopener'"
